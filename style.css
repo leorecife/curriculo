@@ -1,0 +1,205 @@
+/* ----- RESET ----- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    background-image: url(img/retro.jpg);
+    height: 200px;
+    background-size: cover;
+}
+
+main {
+/*    background-color: rgb(134, 147, 219);*/
+    margin: 0.8% 15%;
+/*    border: 5px solid #090ccf; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ----- HEADER ----- */
+#MarginTop {
+    border-top: 5px solid #fdfffe;
+}
+#MarginBot {
+    border-top: 5px solid #090ccf;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 10px 50px;
+    border: 5px solid #090ccf;
+ /*   background-color: rgb(134, 147, 219); */
+}
+
+
+.container .logo img {
+    background-color: #fdfffe;
+    width: 200px;
+}
+
+.container .menu ul {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container .menu ul li {
+    margin-left: 30px;
+}
+
+.container .menu ul li:first-child {
+    margin-left: 0px;
+}
+
+
+/* ----- BOTAO ----- */
+.container .menu .btn {
+    padding: 5px 15px;
+    background-color: rgb(134, 147, 219);
+    border: solid 2px #090ccf;
+    font-size: 0.75rem;
+    color: #fdfffe;
+    font-weight: bold;
+    transition: all 900ms ease;
+}
+
+.container .menu .btn:hover {
+    background-color: rgb(134, 147, 219);
+    color: #fdfffe;
+    transition: all 900ms ease;
+    width: 100%;
+    height: 100%;
+    border: solid 5px #090ccf;
+}
+
+
+/* ----- SOBRE -----*/
+.sobre {
+    margin: 30px 100px;
+    padding: 20px;
+    background-color: rgb(134, 147, 219);
+    }
+
+.sobre .titulo {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.sobre .titulo img {
+    width: 50px;
+}
+
+.sobre h1 {
+    
+    margin: 20px 20px 10px 10px;
+}
+
+.sobre p {
+    margin-bottom: 50px;
+}
+
+.sobre #nomarg {
+    margin: 0;
+}
+
+.sobre h4 {
+    margin-bottom: 5px;
+}
+
+.sobre #skills {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    margin-left: 30px;
+}
+.sobre #skills:last-child {
+    margin-left: 0px;
+}
+
+.sobre #skills div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.sobre #skills p {
+    display: flex;
+    align-items: flex-end;
+    margin: 0px 50px 0px 5px;
+}
+
+.sobre #skills img {
+    margin-right: 10px;
+}
+
+.my-hr {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+.my-hr hr {
+    flex: 1;
+
+}
+
+/* ----- CONTATOS ----- */
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.contato #title {
+    text-align: center;
+    margin: 50px 0px 30px 0px;
+}
+
+.contato .contatos{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.contato .contatos img {
+    margin: 5px;
+}
+
+.contato .contatos img:hover {
+    opacity: 0.5;
+}
+
+/* ----- FOOTER ----- */
+footer p {
+    padding: 10px;
+    font-size: 0.625rem;
+    text-align: center;
+    border: 5px solid #090ccf;
+}
+
+
